@@ -36,6 +36,7 @@ public class Principal {
        empleado1.yearincome=entrada.nextInt();
        empleado1.calcularIngresos= (int) (empleado1.sueldo+((2022-empleado1.yearincome)*0.02*empleado1.sueldo));
        System.out.println(" Los Ingresos son:"+""+empleado1.calcularIngresos);
+       System.out.println(" Los Impuestos son:"+""+empleado1.impuesto);
 }
     
     }
